@@ -286,17 +286,17 @@ button, input[type='checkbox'] {
     color: white;
     border-radius: 5px; }
 
-.authorization {
+.login {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .authorization__window {
+  .login__window {
     width: 250px;
     height: 300px;
     border: 1px solid black;
     background: white; }
-  .authorization__block-title {
+  .login__block-title {
     height: 70px;
     border-bottom: 1px solid black;
     display: flex;
@@ -304,14 +304,14 @@ button, input[type='checkbox'] {
     align-items: center;
     font-weight: bold;
     font-size: 20px; }
-  .authorization__main {
+  .login__main {
     text-align: center; }
-  .authorization__container-input-password, .authorization__container-input-login {
+  .login__container-input-password, .login__container-input-login {
     margin: 20px; }
-  .authorization__container-input-login, .authorization__container-input-password {
+  .login__container-input-login, .login__container-input-password {
     display: flex;
     justify-content: center; }
-  .authorization__person, .authorization__lock {
+  .login__person, .login__lock {
     padding: 0 10px;
     border-radius: 5px 0 0 5px;
     border: 1px solid black;
@@ -320,15 +320,15 @@ button, input[type='checkbox'] {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .authorization__input-login, .authorization__input-password {
+  .login__input-login, .login__input-password {
     border-radius: 0 5px 5px 0;
     padding-left: 10px;
     border: 1px solid grey;
     font-size: 16px;
     width: 170px; }
-  .authorization__container-button-enter {
+  .login__container-button-enter {
     margin-top: 40px; }
-  .authorization__button-enter {
+  .login__button-enter {
     padding: 8px 15px;
     border-radius: 10px;
     background: transparent; }
