@@ -1,0 +1,55 @@
+.case-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    &__checkbox-container {
+        flex-grow: 0.05;
+    }
+    &__block {
+        flex-grow: 2;
+        min-height: 50px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        flex-wrap: wrap;
+        padding: 0 10px; 
+    }
+    &__sign-importance {
+        flex-grow: 0.1;
+    }
+    &__ball {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+    }
+    &__text {
+        flex-grow: 1;
+        margin-right: 20px;
+    }
+    
+    &__date {
+        flex-grow: 0.05;
+    }
+    &__container-buttons {
+        display: flex;
+        flex-grow: 0.05;
+        justify-content: center;
+    }
+    &__container-buttons-edit {
+        margin: 0 20px;
+    }
+    &__button {
+        border-radius: 50%;
+    }
+}
+@media (max-width: 437px) {
+    .case-item {
+        &__container-buttons {
+            margin: 10px;
+            flex-grow: 2.05;
+          
+        }  
+    }
+}

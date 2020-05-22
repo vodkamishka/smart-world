@@ -1,0 +1,14 @@
+.message {
+    width: 300px;
+    min-height: 70px;
+    background: white;
+    box-shadow: 1px 0 1px grey;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}

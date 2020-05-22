@@ -1,0 +1,16 @@
+.select {
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid black;
+    flex-grow: 0;
+    &__select {
+        width: 200px;
+        border-radius: 2px 2px 2px 2px;
+        height: 20px;
+        border: 1px solid black;
+        text-align: center;
+    } 
+}

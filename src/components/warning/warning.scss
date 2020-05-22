@@ -1,0 +1,25 @@
+.warning {
+    width: 300px;
+    min-height: 70px;
+    background: tomato;
+    position: absolute;
+    left: 61%;
+    top: 48%;
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    &::before {
+        content: '';
+        display: block;
+        border: 5px solid white;
+        border-right: 5px solid tomato;
+        position: absolute;
+        left: -10px;
+        top: 10px;
+        
+
+    }
+}

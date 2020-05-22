@@ -1,0 +1,49 @@
+.modal-delete {
+    width: 300px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 20px;
+    &__cross {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    &__cross-button {
+        font-weight: bold;
+        font-size: 20px; 
+        border: none;
+        border-radius: 50%;
+        background: transparent;
+        
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+    }
+    &__text {
+        width: 200px;
+        text-align: center;
+    }
+    &__container-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    &__button-no, &__button-yes {
+        width: 70px;
+        border-radius: 10px;
+        color: white;
+    }
+    &__button-no {
+        background: tomato;
+        margin-left: 10px;
+    }
+    &__button-yes {
+        background: #43a047;
+        margin-right: 10px;
+    }
+}
